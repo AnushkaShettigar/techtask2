@@ -1,0 +1,49 @@
+* {
+  background-color: black;
+}
+.leg{
+    display: flex;
+}
+.sock {
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  background-image: url(raven.jpg);
+  background-size: cover;
+}
+.shoe{
+    height: 300px;
+    width:auto;
+    /* background-color: red; */
+    color: rgb(133, 40, 167);
+    border: 2px dashed;
+    font-weight: 700;
+    padding-left: 3%;
+    padding-right: 3%;
+    margin-left: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+p2{
+    font-weight: 500;
+}
+button{
+    height: 30px;
+    width:100px;
+    background-color: rgb(133, 40, 167);
+    border:none;
+    text-transform: capitalize;
+    cursor:pointer;
+}
+button:hover{
+    background-color: black;
+    color: rgb(133, 40, 167);
+    border: 2px dashed;
+}
+a{
+    background-color:inherit;
+    color: inherit;
+    text-decoration: none;
+}
